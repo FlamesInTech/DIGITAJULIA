@@ -45,6 +45,3 @@ navLinks.addEventListener('click', ()=>{
     //Animation
     hamburger.classList.toggle("toggle");
 });
-
-
-

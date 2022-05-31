@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <title>Digita Julia</title>
+        <title>Digita Julia</title>
     <!-- JQUERY CDN -->
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- OWL CAROUSEL JS -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- OWL CAROUSEL CSS -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- ANIMATE.CSS -->
+              <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>  
 
     <div class="container">
-    <!-- NAV BAR -->
+<!-- NAV BAR -->
         <nav>
             <div class="logo">
-                <h2>DIGITAJULIA</h2>
+                <a href="#"><h2>DIGITAJULIA</h2></a>
             </div>
             <div class="hamburger">
                 <div class="bars1"></div>
@@ -37,10 +41,10 @@
             <section></section>
         </nav>
         
-    <!-- MAIN SECTION -->
+<!-- MAIN SECTION -->
         <main>
-            <div class="head">
-               <h2>DIGITAL MARKTING EXPERT 
+            <div class="head animate__animated animate__fadeInDown">
+               <h2>DIGITAL MARKTING <span class="">EXPERT</span>  
                     <br> 
                     <span style="font-size: 1rem; font-style: italic;">...solidify your business online presence</span>
                 </h2>
@@ -112,7 +116,7 @@
                 </div>
                 <div class="aboutSection">
                     <div class="aboutImage"></div>
-                    <div class="aboutText">
+                    <div class="aboutText animate__animated animate__slideInRight">
                         <h2>DIGITA JULIA</h2>
                         <p>Digita Julia is a company aimed at delivering the best marketing services, with creating massive growth for startup businesses Digita Julia is a company aimed at delivering the best marketing services, with creating massive growth for startup businesses Digita Julia is a company aimed at delivering the best marketing services, with Digita Julia is a company aimed at delivering the best marketing services, with Digita Julia is a company aimed at delivering the best marketing services, with </p>
                     </div>
@@ -132,26 +136,31 @@
                                 <li><a href=""><img src="images/twitter.png" alt="twitter"></a></li>
                                 <li><a href="https://facebook.com/shalomflames"><img src="images/facebook.png" alt="facebook"></a></li>
                                 <li><a href=""><img src="images/instagram.png" alt="instagram"></a></li>
+                            </ul><br>
+                            <ul>
+                                <img src="images/phone.png"> 
+                                <p>+2349033231620</p>
                             </ul>
                         </div>
                     </div>
 
                     <div class="contact-form-wrapper">
-                      <form>
+                      <form action="https://formsubmit.co/adoyishalom@gmail.com" method="POST">
                         <h2>Send us a message</h2><br>
                         <div class="form-item">
                           <input type="text" name="sender" required>
                           <label>Name:</label>
                         </div>
                         <div class="form-item">
-                          <input type="text" name="email" required>
+                          <input type="email" name="email" required>
                           <label>Email:</label>
                         </div>
                         <div class="form-item">
                           <textarea class="" name="message" required></textarea>
                           <label>Message:</label>
+                          <!-- <input type="hidden" name="_captcha" value="false"> -->
                         </div>
-                        <button class="submit-btn">Send</button>  
+                        <button class="submit-btn" type="submit">Send</button>  
                       </form>
                     </div>
                 </div> 
